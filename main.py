@@ -23,7 +23,10 @@ def syracuse_max(n: int) -> int:
 
 def main() -> None:
     """Main function"""
-    print(syracuse_max(int(input("Введите число: "))))
+    number = int(input('Введите число: '))
+    sequence = syracuse_sequence(number)
+    print(f'{sequence = }')
+    print(f'{syracuse_max(number) = }')
 
 
 if __name__ == '__main__':
