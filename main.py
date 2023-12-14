@@ -40,6 +40,6 @@ def main() -> None:
     print(f'{sequence = }')
     print(f'{syracuse_max(number) = }')
 
-print('Привет друг!')
+
 if __name__ == '__main__':
     main()
