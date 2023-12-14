@@ -2,6 +2,11 @@ from typing import List
 
 
 def syracuse_sequence(n: int) -> List[int]:
+    """
+    Generation syracuse sequence
+    :param n: Number
+    :return: List numbers
+    """
     sequence = [n]
     while n != 1:
         if n % 2 == 0:
@@ -13,6 +18,11 @@ def syracuse_sequence(n: int) -> List[int]:
 
 
 def syracuse_max(n: int) -> int:
+    """
+    Finding the maximum number in the syracuse sequence
+    :param n: The number from which the sequence is built
+    :return: Number
+    """
     sequence = syracuse_sequence(n)
     max_num = n
     for max_value in sequence:
