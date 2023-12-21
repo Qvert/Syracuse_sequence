@@ -24,3 +24,6 @@ def main() -> None:
 if __name__ == '__main__':
     main()
 ```
+Вы можете почитать про сиракузскую последовательность [тут](https://ru.wikipedia.org/wiki/Гипотеза_Коллатца)
+
+![](https://risovach.ru/upload/2013/06/mem/dobbi_22420930_orig_.jpeg)
